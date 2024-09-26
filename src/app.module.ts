@@ -10,7 +10,7 @@ import { BlogsModule } from './blogs/blogs.module';
 @Module({
   imports: [
     AuthModule,
-    MongooseModule.forRoot('mongodb://localhost:27017/BlogDB'),
+    MongooseModule.forRoot('mongodb+srv://feramizbahadinnov:YMMfy6isV5SeAG02@cluster0.qd1se.mongodb.net/'),
     BlogsModule,
   ],
   controllers: [AppController],
